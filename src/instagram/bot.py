@@ -48,7 +48,6 @@ def login():
         '//*[@id="react-root"]/section/main/div/div/div/div/button'
     ).click()
 
-    
     driver.save_screenshot("2.png")
 
 
