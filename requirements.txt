@@ -1,0 +1,4 @@
+python-dotenv==0.15.0
+lxml==4.4.2
+beautifulsoup4==4.8.2
+selenium==3.141.0
