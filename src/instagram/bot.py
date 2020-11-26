@@ -43,11 +43,12 @@ def login():
     password_input.submit()
     driver.save_screenshot("1.png")
 
+    time.sleep(3)
     driver.find_element_by_xpath(
         '//*[@id="react-root"]/section/main/div/div/div/div/button'
     ).click()
 
-    time.sleep(1)
+    
     driver.save_screenshot("2.png")
 
 
